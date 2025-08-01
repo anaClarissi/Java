@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NeedForSpeedTest" tests="16" skipped="0" failures="16" errors="0" timestamp="2025-08-01T03:11:28" hostname="ANA" time="0.062">
+  <properties/>
+  <testcase name="The distanceDriven method returns 0 on a new car" classname="NeedForSpeedTest" time="0.024">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.distanceDriven() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.distanceDriven() method
+	at NeedForSpeed.distanceDriven(NeedForSpeed.java:17)
+	at NeedForSpeedTest.new_remote_control_car_has_not_driven_any_distance(NeedForSpeedTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The batteryDrained method returns true when battery completely drained after driving" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method
+	at NeedForSpeed.drive(NeedForSpeed.java:21)
+	at NeedForSpeedTest.drive_until_battery_is_drained(NeedForSpeedTest.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The batteryDrained method returns false when nitro car never drove" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
+	at NeedForSpeed.nitro(NeedForSpeed.java:25)
+	at NeedForSpeedTest.nitro_car_has_battery_not_drained(NeedForSpeedTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The batteryDrained method returns false when car never drove" classname="NeedForSpeedTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.batteryDrained() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.batteryDrained() method
+	at NeedForSpeed.batteryDrained(NeedForSpeed.java:13)
+	at NeedForSpeedTest.new_remote_control_car_battery_is_not_drained(NeedForSpeedTest.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The canFinishRace method returns false when car just cannot finish a race" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor
+	at RaceTrack.&lt;init&gt;(NeedForSpeed.java:31)
+	at NeedForSpeedTest.car_can_finish_with_car_that_just_cannot_finish(NeedForSpeedTest.java:196)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The distanceDriven method returns 5 after driving once" classname="NeedForSpeedTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method
+	at NeedForSpeed.drive(NeedForSpeed.java:21)
+	at NeedForSpeedTest.drive_increases_distance_driven_with_speed(NeedForSpeedTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The canFinishRace method returns true when car can finish a race" classname="NeedForSpeedTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor
+	at RaceTrack.&lt;init&gt;(NeedForSpeed.java:31)
+	at NeedForSpeedTest.car_can_finish_with_car_that_can_easily_finish(NeedForSpeedTest.java:168)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The distanceDriven method returns the correct distance after driving multiple times" classname="NeedForSpeedTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method
+	at NeedForSpeed.drive(NeedForSpeed.java:21)
+	at NeedForSpeedTest.drive_does_not_increase_distance_driven_when_battery_drained(NeedForSpeedTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The batteryDrained method returns false when nitro battery did not completely drain after driving" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
+	at NeedForSpeed.nitro(NeedForSpeed.java:25)
+	at NeedForSpeedTest.nitro_has_correct_battery_drain(NeedForSpeedTest.java:135)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The canFinishRace method returns true when car can just finish a race" classname="NeedForSpeedTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor
+	at RaceTrack.&lt;init&gt;(NeedForSpeed.java:31)
+	at NeedForSpeedTest.car_can_finish_with_car_that_can_just_finish(NeedForSpeedTest.java:182)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The distanceDriven method returns the correct distance after driving a nitro car" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
+	at NeedForSpeed.nitro(NeedForSpeed.java:25)
+	at NeedForSpeedTest.nitro_car_has_correct_speed(NeedForSpeedTest.java:126)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The batteryDrained method returns false when there's not enough battery" classname="NeedForSpeedTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method
+	at NeedForSpeed.drive(NeedForSpeed.java:21)
+	at NeedForSpeedTest.new_remote_control_car_that_can_only_drive_once(NeedForSpeedTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The batteryDrained method returns true when nitro battery completely drained after driving" classname="NeedForSpeedTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
+	at NeedForSpeed.nitro(NeedForSpeed.java:25)
+	at NeedForSpeedTest.nitro_battery_completely_drains(NeedForSpeedTest.java:149)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The distanceDriven method returns 0 on a new nitro car" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
+	at NeedForSpeed.nitro(NeedForSpeed.java:25)
+	at NeedForSpeedTest.nitro_car_has_not_driven_any_distance(NeedForSpeedTest.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The canFinishRace method returns false when car cannot finish a race" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the RaceTrack constructor
+	at RaceTrack.&lt;init&gt;(NeedForSpeed.java:31)
+	at NeedForSpeedTest.car_can_finish_with_car_that_cannot_finish(NeedForSpeedTest.java:210)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="The batteryDrained method returns false when car battery did not completely drain after driving" classname="NeedForSpeedTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the NeedForSpeed.drive() method
+	at NeedForSpeed.drive(NeedForSpeed.java:21)
+	at NeedForSpeedTest.drive_to_almost_drain_battery(NeedForSpeedTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
